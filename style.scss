@@ -210,6 +210,10 @@ section {
     background-color: rgba(255, 227, 11, 0.699);
     color: black;
   }
+  .compli{
+    height:70%;
+    width:70%;
+  }
   .contact {
     display: flex;
     flex-wrap: nowrap;
@@ -370,7 +374,7 @@ $baby-blue: #f8faff;
   background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 813px)
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px)
   {
     $colone: #312d3c;
 $coltwo: #1d1e22;

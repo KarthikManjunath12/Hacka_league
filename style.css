@@ -258,6 +258,11 @@ section mark {
   color: black;
 }
 
+section .compli {
+  height: 70%;
+  width: 70%;
+}
+
 section .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,7 +441,7 @@ section:nth-child(4) {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 813px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
   *,
   ::before,
   ::after {
