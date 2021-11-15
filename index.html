@@ -12,26 +12,94 @@
     </div>
     <div class="smooth">
         <div class="header">
+            <img src="GAT-logo.png" class="gatlo">
             <ul>
                 <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#details">Register</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#about">Rules</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><div class="register"><a href="#contact">Contact</a></div></li>
+                
             </ul>
+            <button class="bubbly-button">Register!</button>
         </div>
         <section id="home">
-            <h2>HACKALEAGUE</h2>
+            <br><br><br><br>
+            
+            
+          <div class="GAT" >Global Academy of Technology<br></div>
+          <div class="add"> AUTONOMOUS INSTITUTE, AFFILIATED TO VTU, BELAGAVI<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RAJARAJESHWARI NAGAR, BANGALORE - 98<br></div><br>
+           <div class="cs"> Department of Computer Science and Engineering</h2></div>
+            <div class="ina"> In Association with</h3></div>
+            <div class="row">
+            <div class="column"><img src="tequed.png" class="teq"><img src="isfte.png"class="isf" ></div>
+            </div>
+           
+            <img src="hackaa.png" style="width:55%;height:55%;">
+            <img src="statelevel.png" style="width:25%;height:25%;"> 
+           <img src="24hour.png" style="width:25%;height:25%;"> 
         </section>
         <section id="about">
-            <h2>details</h2>
+            <div class="stages"></div>
+            <div class="rulesh">RULES</div>
+
+            <div class="rules">
+                
+                • Teams can consist of 2-4 members.<br>
+                • All Peripheral Hardware must be approved by the organisers.<br>
+                • All design elements, code and hardware must be prepared on-  spot.<br>
+                • Intellectual Property developed should belong to the Participants.<br>
+                • Preliminary round consists of pseudocodes and hands on coding
+                    questions based on data structures and simple algorithms.<br>
+                • Second round is the Ideation phase of a solution to real world industrial problems.<br>
+                • The Final Round is a 12 hour Hackathon based towards developing world industrial
+                working model/simulation<br>&nbsp; of the solution brought about in the ideation phase.<br>
+                • All participants will be provided with a participation certificate.<br>
+                • The Winners and the Runners-up shall receive Exciting Prizes.<br>
+            </div>
         </section>
         <section id="details">
-            <h2>register</h2>
+            
+            <img src="timing2.png" class="timimg">
+            <img src="compli.png" class="comp" style="width:55%;height:55%;">
+           <div class="desc"><mark>Breakfast, Lunch,Dinner and High Tea will be provided at the venue.</mark></div> 
         </section>
         <section id="contact">
-            <h2>contact</h2>
+            
+            <div class="contact">
+                <div class="box">
+                    Dr.Jyothi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9480608535<br>
+                    Prof.Veena V Pattankar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9480002832<br>
+                </div>
+                <div class="box">
+                    Sharan S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9480608535<br>
+                    Samprith &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9480002832<br>
+                    Aaditya&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9972916685
+                </div>
+
         </section>
     </div>
+<script>
+        var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+  e.target.classList.remove('animate');
+},700);
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+bubblyButtons[i].addEventListener('click', animateButton, false);
+}
+
+</script>
+
     
 </body>
 </html>

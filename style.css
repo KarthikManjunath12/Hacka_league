@@ -79,7 +79,6 @@ body {
   font-size: 1rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1e22), color-stop(rgba(29, 30, 34, 0.1)), to(transparent));
   background-image: linear-gradient(180deg, #1d1e22, rgba(29, 30, 34, 0.1), transparent);
-  mix-blend-mode: luminosity;
 }
 
 .header ul {
@@ -93,6 +92,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  mix-blend-mode: luminosity;
 }
 
 .header ul li {
@@ -104,6 +104,7 @@ body {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: 600;
   color: #f4f4f4;
 }
@@ -138,41 +139,285 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
   font-size: 1rem;
   background-color: #f4f4f4;
-  background-image: url(GIT.jpg);
+  background-image: url(back.jpg);
   background-size: cover;
   scroll-snap-align: center;
 }
 
 section h2 {
+  font-size: 1.25rem;
+}
+
+section .GAT {
+  font-size: 2rem;
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+section .cs {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+section .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section .column img {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section .teq {
+  width: 22%;
+  height: 22%;
+  position: relative;
+  top: 15px;
+}
+
+section .isf {
+  width: 15%;
+  height: 15%;
+  position: relative;
+}
+
+section .rulesh {
+  font-size: 3em;
+  font-weight: 600;
+  margin-top: auto;
+  text-shadow: 0 2px black, 0 3px #777;
+}
+
+section .rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  color: #000;
+  margin-bottom: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #ffe30bc9;
+  font-family: "Serif", Garamond;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+  font-size: 1.5em;
+  font-weight: 600;
+  border: 2px solid;
+}
+
+section .timimg {
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 0.9;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+}
+
+section .desc {
+  font-family: "Serif", Garamond;
+  color: #000;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+section mark {
+  background-color: rgba(255, 227, 11, 0.699);
+  color: black;
+}
+
+section .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 800px;
+  background-color: rgba(30, 143, 255, 0.699);
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+}
+
+section .contact .box {
+  background-color: rgba(255, 227, 11, 0.815);
+  color: #000;
+  font-weight: bold;
+  width: 50%;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 20px;
+  -webkit-box-shadow: 0 0 40px -10px #000;
+          box-shadow: 0 0 40px -10px #000;
+}
+
+section h1 {
   font-size: 2.25rem;
-  font-weight: 900;
-  padding: 0.5em 1em;
-  color: #1d1e22;
-  background-color: #f4f4f4;
-  mix-blend-mode: screen;
-  border-radius: 0.25em;
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 section:nth-child(2) {
-  background-image: url(bg.jpg);
+  background-image: url(back.jpg);
 }
 
 section:nth-child(3) {
-  background-image: url(GIT.jpg);
+  background-image: url(back.jpg);
 }
 
 section:nth-child(4) {
-  background-image: url(bg.jpg);
+  background-image: url(back.jpg);
+}
+
+.header .gatlo {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.header .bubbly-button {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  height: 55px;
+  width: 100px;
+  font-size: 1em;
+  margin-right: 50px;
+  margin-top: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: #e23c7e !important;
+  color: #fff !important;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: -webkit-transform ease-in 0.1s, -webkit-box-shadow ease-in 0.25s;
+  transition: -webkit-transform ease-in 0.1s, -webkit-box-shadow ease-in 0.25s;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s, -webkit-transform ease-in 0.1s, -webkit-box-shadow ease-in 0.25s;
+  -webkit-box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+          box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+.header .bubbly-button:focus {
+  outline: 0;
+}
+
+.header .bubbly-button:before, .header .bubbly-button:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+
+.header .bubbly-button:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, transparent 20%, #e23c7e 20%, transparent 30%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #e23c7e 15%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.header .bubbly-button:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #e23c7e 15%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%), radial-gradient(circle, #e23c7e 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.header .bubbly-button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  background-color: #df266f;
+  -webkit-box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+          box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+
+.header .bubbly-button.animate:before {
+  display: block;
+  -webkit-animation: topBubbles ease-in-out 0.75s forwards;
+          animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.header .bubbly-button.animate:after {
+  display: block;
+  -webkit-animation: bottomBubbles ease-in-out 0.75s forwards;
+          animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@-webkit-keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+@-webkit-keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
