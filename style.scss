@@ -122,6 +122,7 @@ section {
   background-color: $colthr;
   background-image: url(back.jpg);
   background-size: cover;
+  background-attachment: fixed;
   scroll-snap-align: center;
 
   h2 {

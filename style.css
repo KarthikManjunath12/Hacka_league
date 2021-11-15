@@ -146,6 +146,7 @@ section {
   background-color: #f4f4f4;
   background-image: url(back.jpg);
   background-size: cover;
+  background-attachment: fixed;
   scroll-snap-align: center;
 }
 
